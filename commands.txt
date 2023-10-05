@@ -1,0 +1,41 @@
+
+ASHISHG15@BSNODL-11275 MINGW64 ~
+$ sh
+sh: __git_ps1: command not found
+
+ASHISHG15@BSNODL-11275 MINGW64 ~
+$ cd /d
+sh: __git_ps1: command not found
+
+ASHISHG15@BSNODL-11275 MINGW64 /d
+$ cd script/
+sh: __git_ps1: command not found
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ exit
+exit
+
+ASHISHG15@BSNODL-11275 MINGW64 ~
+$ cd /d
+
+ASHISHG15@BSNODL-11275 MINGW64 /d
+$ cd script/
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ cat result.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output.html
+bash: ./tabulate.sh: No such file or directory
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ cat result.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output.html
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ cat test.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output.html
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ cat test.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output1.html
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$ cat result.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output.html
+
+ASHISHG15@BSNODL-11275 MINGW64 /d/script
+$

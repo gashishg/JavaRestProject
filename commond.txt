@@ -1,0 +1,1 @@
+cat result.txt | { cat ; echo ; } | ./tabulate.sh -d ":" -t "My Report" -h "My Report" > output.html
